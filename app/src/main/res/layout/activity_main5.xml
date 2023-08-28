@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity5">
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="190dp"
+        android:layout_height="85dp"
+        android:backgroundTint="#3F51B5"
+        android:fontFamily="sans-serif-black"
+        android:shadowColor="#3F51B5"
+        android:text="Cancelar"
+        android:textColor="#DCD3D3"
+        android:textColorHighlight="#3F51B5"
+        android:textColorHint="#3F51B5"
+        android:textColorLink="#3F51B5"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.834"
+        app:rippleColor="#3F51B5"
+        app:strokeColor="#3F51B5" />
+
+    <Button
+        android:id="@+id/button23"
+        android:layout_width="174dp"
+        android:layout_height="84dp"
+        android:backgroundTint="#8F9498"
+        android:fontFamily="sans-serif-black"
+        android:text="Reporte"
+        android:textColor="#014004"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.067"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/button24"
+        android:layout_width="174dp"
+        android:layout_height="84dp"
+        android:backgroundTint="#8F9498"
+        android:fontFamily="sans-serif-black"
+        android:text="Regresar"
+        android:textColor="#C90202"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="190dp"
+        android:layout_height="85dp"
+        android:backgroundTint="#3F51B5"
+        android:fontFamily="sans-serif-black"
+        android:shadowColor="#3F51B5"
+        android:text="Confirmar"
+        android:textColor="#DCD3D3"
+        android:textColorHighlight="#3F51B5"
+        android:textColorHint="#3F51B5"
+        android:textColorLink="#3F51B5"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.691"
+        app:rippleColor="#3F51B5"
+        app:strokeColor="#3F51B5" />
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="190dp"
+        android:layout_height="85dp"
+        android:backgroundTint="#3F51B5"
+        android:fontFamily="sans-serif-black"
+        android:shadowColor="#3F51B5"
+        android:text="Aceptar"
+        android:textColor="#DCD3D3"
+        android:textColorHighlight="#3F51B5"
+        android:textColorHint="#3F51B5"
+        android:textColorLink="#3F51B5"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.072"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.691"
+        app:rippleColor="#3F51B5"
+        app:strokeColor="#3F51B5" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="341dp"
+        android:layout_height="39dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Sistema Gestión Usuarios"
+        android:textAlignment="center"
+        android:textColor="#B20F02"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="SIVAG"
+        android:textColor="#B70101"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.078" />
+
+    <ListView
+        android:layout_width="349dp"
+        android:layout_height="341dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.435"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.246" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

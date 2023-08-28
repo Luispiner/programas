@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="174dp"
+        android:layout_height="84dp"
+        android:backgroundTint="#8F9498"
+        android:fontFamily="sans-serif-black"
+        android:text="Reporte"
+        android:textColor="#014004"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.067"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="174dp"
+        android:layout_height="84dp"
+        android:backgroundTint="#8F9498"
+        android:fontFamily="sans-serif-black"
+        android:text="Regresar"
+        android:textColor="#C90202"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="190dp"
+        android:layout_height="85dp"
+        android:backgroundTint="#3F51B5"
+        android:fontFamily="sans-serif-black"
+        android:shadowColor="#3F51B5"
+        android:text="Aceptar"
+        android:textColor="#DCD3D3"
+        android:textColorHighlight="#3F51B5"
+        android:textColorHint="#3F51B5"
+        android:textColorLink="#3F51B5"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.072"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.673"
+        app:rippleColor="#3F51B5"
+        app:strokeColor="#3F51B5" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="190dp"
+        android:layout_height="85dp"
+        android:backgroundTint="#3F51B5"
+        android:fontFamily="sans-serif-black"
+        android:shadowColor="#3F51B5"
+        android:text="Cancelar"
+        android:textColor="#DCD3D3"
+        android:textColorHighlight="#3F51B5"
+        android:textColorHint="#3F51B5"
+        android:textColorLink="#3F51B5"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.834"
+        app:rippleColor="#3F51B5"
+        app:strokeColor="#3F51B5" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="190dp"
+        android:layout_height="85dp"
+        android:backgroundTint="#3F51B5"
+        android:fontFamily="sans-serif-black"
+        android:shadowColor="#3F51B5"
+        android:text="Confirmar"
+        android:textColor="#DCD3D3"
+        android:textColorHighlight="#3F51B5"
+        android:textColorHint="#3F51B5"
+        android:textColorLink="#3F51B5"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.673"
+        app:rippleColor="#3F51B5"
+        app:strokeColor="#3F51B5" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputEditText9"
+        android:layout_width="334dp"
+        android:layout_height="41dp"
+        android:hint="hint"
+        android:shadowColor="#03A9F4"
+        android:text="Ingrese C.C o NIT"
+        android:textColor="#FF5722"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="292dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputEditText10"
+        android:layout_width="334dp"
+        android:layout_height="41dp"
+        android:hint="hint"
+        android:shadowColor="#03A9F4"
+        android:text="Dirección"
+        android:textColor="#FF5722"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="356dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputEditText8"
+        android:layout_width="334dp"
+        android:layout_height="41dp"
+        android:hint="hint"
+        android:shadowColor="#03A9F4"
+        android:text="Ingrese Contraseña Nueva"
+        android:textColor="#FF5722"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="233dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputEditText7"
+        android:layout_width="334dp"
+        android:layout_height="41dp"
+        android:hint="hint"
+        android:shadowColor="#03A9F4"
+        android:text="Ingrese Nuevo Id Usuario"
+        android:textColor="#FF5722"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="171dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="341dp"
+        android:layout_height="39dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Sistema Gestión Usuarios"
+        android:textAlignment="center"
+        android:textColor="#B20F02"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="SIVAG"
+        android:textColor="#B70101"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.078" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputEditText3"
+        android:layout_width="334dp"
+        android:layout_height="41dp"
+        android:hint="hint"
+        android:shadowColor="#03A9F4"
+        android:text="Ingrese Nombre"
+        android:textColor="#FF5722"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="105dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
